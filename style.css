@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+
+#header-resume {
+  background-image: url(bg.jpg);
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#header-nav ul {
+  word-spacing: 20px;
+}
+
+#header-nav li {
+  display: inline-block;
+}
+
+#header-nav li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+#name-container {
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+#my-name {
+  color: white;
+}
+/* about section */
+#about-section {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#myPhoto img {
+  height: 220px;
+  width: 220px;
+  margin-top: -120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px black double;
+}
+
+#about-profile {
+  color: grey;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* skills section */
+
+#skills {
+  width: 100%;
+}
+
+.skills-display {
+  padding: 5px;
+  width: 1000px;
+  margin-bottom: 30px;
+  margin: auto;
+}
+
+.skill-progress {
+  background-color: grey;
+  width: 176px;
+  height: 35px;
+  border-radius: 16px;
+  margin: 22px;
+  overflow: hidden;
+  border-width: 1px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.587);
+}
+
+.skill-box {
+  box-shadow: 1px 1px 5px 2px grey;
+
+  padding-left: 3px;
+  padding-top: 5px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.columns-3 {
+  float: left;
+  width: 25%;
+}
+
+/* percentages and colours */
+
+.eighty-percent {
+  width: 80%;
+  height: inherit;
+}
+
+.ninety-percent {
+  width: 90%;
+  height: inherit;
+}
+
+.seventyfive-percent {
+  width: 75%;
+  height: inherit;
+}
+
+.fifty-percent {
+  width: 50%;
+  height: inherit;
+}
+
+.sixty-percent {
+  width: 60%;
+  height: inherit;
+}
+
+.navyblue {
+  background-color: navy;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: coral;
+}
+
+.red {
+  background-color: red;
+}
+
+.section-heading {
+  font-size: 35px;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+  /*display: flex;
+	flex-direction: column;
+	align-items: center;*/
+}
+section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* favourites section */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.column-2 {
+  width: 500px;
+}
+#favourites h3 {
+  margin-bottom: 15px;
+}
+#favourites img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#favourites h4 {
+  margin-bottom: 15px;
+}
+
+#favourites p {
+  line-height: 1.6;
+}
+
+/* My education */
+
+#education {
+  width: 100%;
+}
+
+#education img {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#education p {
+  width: 80%;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+/* portfolio */
+
+.portfolio-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  position: relative;
+}
+
+.portfolio-img img {
+  width: 400px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.portfolio-text {
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  height: 100%;
+  color: transparent;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-img:hover {
+  box-shadow: 1px 1px 1px lightseagreen;
+}
+
+.portfolio-img:hover .portfolio-text {
+  opacity: 80%;
+  color: black;
+}
+
+footer {
+  padding: 20px;
+}
